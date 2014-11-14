@@ -1,11 +1,8 @@
-nss (2:3.17.1-1+1canaima) unstable; urgency=medium
+nss (2:3.17.1-1+2canaima) unstable; urgency=medium
 
-  [ Mike Hommey ]
   * UNRELEASED
 
-  [ Carlos Espinoza ]
-
- -- Carlos Espinoza <carlosarmikhael@gmail.com>  Wed, 22 Oct 2014 19:53:22 +0000
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Fri, 14 Nov 2014 18:54:33 +0000
 
 nss (2:3.17-1) unstable; urgency=medium
 
