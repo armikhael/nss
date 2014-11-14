@@ -12,7 +12,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-mozilla/nss.git
 Package: libnss3
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: libc6 (>= 2.4), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 4.8.6), libsqlite3-0 (>= 3.5.9), zlib1g (>= 1:1.1.4)
 Conflicts: libnss3-1d (<< 2:3.13.4-2)
 Multi-Arch: ${misc:Multi-Arch}
 Description: Network Security Service libraries
@@ -35,7 +35,7 @@ Description: Network Security Service libraries - transitional package
 Package: libnss3-tools
 Section: admin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: libc6 (>= 2.4), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 4.7.0~1.9b1), libnss3 (>= 2:3.17.1), libsqlite3-0 (>= 3.5.9), zlib1g (>= 1:1.1.4)
 Description: Network Security Service tools
  This is a set of tools on top of the Network Security Service libraries.
  This package includes:
